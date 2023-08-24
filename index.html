@@ -54,15 +54,18 @@
 
     .icon {
       border-radius: 80%;
-      border: 2px solid #000000;
+      border: 2px solid #FFFFFF;
       margin-left: auto;
       margin-right: auto;
       display: inline-block;
       width: 50%;
+      background-color: #FFFFFF;
     }
 
     .iconContainer {
       padding: 2px 16px;
+      float: right;
+      margin-right: -12vh;
     }
 
     .firstParagraph {
@@ -73,7 +76,7 @@
       padding: 2px 16px;
     }
 
-    .pageBackground {
+    .pageContent{
       background: linear-gradient(to bottom, #9c0583, #17013f);
       width: 100%;
       height: 100vh;
@@ -83,28 +86,50 @@
   </style>
 </head>
 
-<body class="pageBackground">
+<body class="pageContent">
 
-  <img src="photo.jpg" class="avatar">
+  <div>
+    <img src="photo.jpg" class="avatar">
 
-  <div class="card">
+    <div class="card">
 
-    <p class="firstParagraph">
-      Olá, me chamo Filipe Oliveira, tenho 27 anos e moro no Rio de Janeiro. Sou um Desenvolvedor Android com 4 anos de experiência na criação de aplicativos nativos para Android. Durante
-      esse tempo trabalhei em diferentes projetos onde utilizei ferramentas e métodos importantes como Clean
-      Architecture, arquitetura MVVM, Room Database, Navigation Component e Retrofit API.
-      <br>
-      <br>
-      Atualmente estou trabalhando em um projeto grande na indústria do turismo. O código que escrevo impacta,
-      diretamente, mais de 10 milhões de pessoas. Nesse projeto, estou desenvolvendo novas habilidades, como o GraphQL e
-      o Jetpack Compose, e também estou usando ferramentas para verificar a qualidade do aplicativo. Isso me permite ser
-      notificado de um erro assim que ele acontece e corrigi-lo o mais rápido possível.
-      <br>
-      <br>
-      Aqui estão algumas ferramentas com as quais trabalhei:
-      <br>
-    </p>
-    <ul>
+      <div class="iconContainer">
+        <div>
+          <a href="https://www.linkedin.com/in/filipeoliveira01/" target="_blank">
+            <img src="linkedin.png" alt="Avatar" class="icon" style="width:50px">
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/wtfilipe" target="_blank">
+            <img src="github.png" alt="Avatar" class="icon" style="width:50px">
+          </a>
+        </div>
+        <div>
+          <a href="https://stackoverflow.com/users/6034460/filipe-oliveira" target="_blank">
+            <img src="stack.png" alt="Avatar" class="icon" style="width:50px">
+          </a>
+        </div>
+      </div>
+
+      <p class="firstParagraph">
+        Olá, me chamo Filipe Oliveira, tenho 27 anos e moro no Rio de Janeiro. Sou um Desenvolvedor Android com 4 anos
+        de experiência na criação de aplicativos nativos para Android. Durante
+        esse tempo trabalhei em diferentes projetos onde utilizei ferramentas e métodos importantes como Clean
+        Architecture, arquitetura MVVM, Room Database, Navigation Component e Retrofit API.
+        <br>
+        <br>
+        Atualmente estou trabalhando em um projeto grande na indústria do turismo. O código que escrevo impacta,
+        diretamente, mais de 10 milhões de pessoas. Nesse projeto, estou desenvolvendo novas habilidades, como o GraphQL
+        e
+        o Jetpack Compose, e também estou usando ferramentas para verificar a qualidade do aplicativo. Isso me permite
+        ser
+        notificado de um erro assim que ele acontece e corrigi-lo o mais rápido possível.
+        <br>
+        <br>
+        Aqui estão algumas ferramentas com as quais trabalhei:
+        <br>
+      </p>
+      <ul>
         <li>Room Database</li>
         <li>Navigation Component</li>
         <li>Dependency Injection com Koin e Hilt</li>
@@ -114,46 +139,50 @@
         <li>Versionamento de Código com Git / Github</li>
         <li>Firebase</li>
         <li>e muito mais</li>
-    </ul>
-    <p class="paragraph">
-      Minha experiência profissional:
-    </p>
-      
-    <ul>
+      </ul>
+      <p class="paragraph">
+        Minha experiência profissional:
+      </p>
+
+      <ul>
         <li>Hurb | 2021 - Atual</li>
-    </ul>
+      </ul>
 
-    <p class="paragraph" >
-      Nesse projeto eu iniciei como desenvolvedor júnior e, com pouco mais de 3 meses, recebi o desafio de reescrever a home do aplicativo utilizando uma tecnologia que eu não conhecia: GraphQL. A home possui uma lógica complexa de exibição de componentes. Aceitei o desafio e pude demonstrar minhas habilidades como desenvolvedor android, o que me proporcionou uma promoção para desenvolvedor pleno. Ao longo do tempo eu fui responsável pelo desenvolvimento de novas funcionalidades e resolução de bugs, bem como o surgimento de novos através de um dashboard. Tempo depois eu recebi um novo desafio: fui convidado para participar do time focado em pensar a arquitetura do app. Nesse time eu fui responsável por criar o módulo de eventos analíticos. Esses eventos acompanham milhões de usuários mensalmente. Por fim, ainda nesse time, tive a oportunidade de escrever minha primeira tela utilizando a tecnologia Jetpack Compose. Em um fluxo simples, foi importante para entender como essa tecnologia se adapta ao projeto. 
-   
-    <ul>
-      <li>inChurch | 2019 - 2021</li>
-    </ul>
-    <p class="paragraph">
-      Nessa oportunidade eu iniciei como estagiário e era responsável por personalizar o aplicativo para novos clientes. Com o tempo eu pude adquirir conhecimento sobre o projeto e, com isso, passei a ser responsável por resoluções de bugs e desenvolvimento de novas features, bem como a tomada de decisões sobre a UI junto com a equipe de Design. Também passei a ser responsável pelo deploy dos aplicativos na Google Play Console, onde pude conhecer todo o processo de deploy e fui responsável por subir centenas de aplicativos. Com o tempo, me tornei referência para novos estagiários, tanto Android quanto iOS, e passei a participar da seleção e treinamento de novos estagiários. Por fim, inicializei um projeto de automação de parte do desenvolvimento de aplicativo, o que reduziu o tempo de desolvimento / customização do aplicativo de novos clientes em até 30%.
-    </p>
-    <p class="paragraph">
-      Aprendi muito em minha jornada como desenvolvedor Android, e ainda estou aprendendo para melhorar ainda mais. Se quiser conversar, pode me enviar um email a qualquer momento em 
-      <a href="mailto:filipeoliveira.app@gmail.com">filipeoliveira.app@gmail.com</a>.
-      <br>
-      <br>
-      Redes nas quais você pode me encontrar:
-    </p>
-      
-    <div class="iconContainer">
-      <a href="https://www.linkedin.com/in/filipeoliveira01/" target="_blank">
-        <img src="linkedin.png" alt="Avatar" class="icon" style="width:50px">
-      </a>
-      <a href="https://github.com/wtfilipe" target="_blank">
-        <img src="github.png" alt="Avatar" class="icon" style="width:50px">
-      </a>
-      <a href="https://stackoverflow.com/users/6034460/filipe-oliveira" target="_blank">
-        <img src="stack.png" alt="Avatar" class="icon" style="width:50px">
-      </a>
+      <p class="paragraph">
+        Nesse projeto eu iniciei como desenvolvedor júnior e, com pouco mais de 3 meses, recebi o desafio de reescrever
+        a home do aplicativo utilizando uma tecnologia que eu não conhecia: GraphQL. A home possui uma lógica complexa
+        de exibição de componentes. Aceitei o desafio e pude demonstrar minhas habilidades como desenvolvedor android, o
+        que me proporcionou uma promoção para desenvolvedor pleno. Ao longo do tempo eu fui responsável pelo
+        desenvolvimento de novas funcionalidades e resolução de bugs, bem como o surgimento de novos através de um
+        dashboard. Tempo depois eu recebi um novo desafio: fui convidado para participar do time focado em pensar a
+        arquitetura do app. Nesse time eu fui responsável por criar o módulo de eventos analíticos. Esses eventos
+        acompanham milhões de usuários mensalmente. Por fim, ainda nesse time, tive a oportunidade de escrever minha
+        primeira tela utilizando a tecnologia Jetpack Compose. Em um fluxo simples, foi importante para entender como
+        essa tecnologia se adapta ao projeto.
+
+      <ul>
+        <li>inChurch | 2019 - 2021</li>
+      </ul>
+      <p class="paragraph">
+        Nessa oportunidade eu iniciei como estagiário e era responsável por personalizar o aplicativo para novos
+        clientes. Com o tempo eu pude adquirir conhecimento sobre o projeto e, com isso, passei a ser responsável por
+        resoluções de bugs e desenvolvimento de novas features, bem como a tomada de decisões sobre a UI junto com a
+        equipe de Design. Também passei a ser responsável pelo deploy dos aplicativos na Google Play Console, onde pude
+        conhecer todo o processo de deploy e fui responsável por subir centenas de aplicativos. Com o tempo, me tornei
+        referência para novos estagiários, tanto Android quanto iOS, e passei a participar da seleção e treinamento de
+        novos estagiários. Por fim, inicializei um projeto de automação de parte do desenvolvimento de aplicativo, o que
+        reduziu o tempo de desolvimento / customização do aplicativo de novos clientes em até 30%.
+      </p>
+      <p class="paragraph">
+        Aprendi muito em minha jornada como desenvolvedor Android, e ainda estou aprendendo para melhorar ainda mais. Se
+        quiser conversar, pode me enviar um email a qualquer momento em
+        <a href="mailto:filipeoliveira.app@gmail.com">filipeoliveira.app@gmail.com</a>.
+        <br>
+        <br>
+      </p>
     </div>
+
   </div>
-
-
 
 </body>
 
