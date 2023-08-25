@@ -13,22 +13,22 @@
       width: 50%;
       margin-left: 25%;
       margin-right: 25%;
-      display: block;
       margin-top: -20vh;
       z-index: 1;
+      position: relative;
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
       .card {
         box-shadow: 0 8pc 16px 0 rgba(0, 0, 0, 0.2);
         border-radius: 25px;
         transition: 0.3s;
         background: #ffffff;
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%;
-        margin-top: -20vh;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         z-index: 1;
+        position: relative;
       }
     }
 
@@ -40,17 +40,19 @@
       display: block;
       width: 20%;
       z-index: 2;
+      position: relative;
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 720px) {
       .avatar {
         border-radius: 80%;
         border: 8px solid #FFFFFF;
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 40%;
+        width: 30%;
         z-index: 2;
+        position: relative;
       }
     }
 
@@ -60,15 +62,38 @@
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1vh;
+      width: 10vh;
       display: inline-block;
-      width: 50%;
       background-color: #FFFFFF;
     }
 
+    @media (max-width: 720px) {
+      .icon {
+        border-radius: 80%;
+        border: 2px solid #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1vh;
+        width: 5vh;
+        display: inline-block;
+        background-color: #FFFFFF;
+      }
+    }
+
     .iconContainer {
-      padding: 2px 16px;
       float: right;
-      margin-right: -12vh;
+      position: absolute;
+      top: 0;
+      right: -12vh;
+    }
+
+    @media (max-width: 720px) {
+      .iconContainer {
+        position: absolute;
+        float: right;
+        top: 0;
+        right: -7vh;
+      }
     }
 
     .firstParagraph {
@@ -98,17 +123,17 @@
       <div class="iconContainer">
         <div>
           <a href="https://www.linkedin.com/in/filipeoliveira01/" target="_blank">
-            <img src="linkedin.png" alt="Avatar" class="icon" style="width:50px">
+            <img src="linkedin.png" alt="Avatar" class="icon">
           </a>
         </div>
         <div>
           <a href="https://github.com/wtfilipe" target="_blank">
-            <img src="github.png" alt="Avatar" class="icon" style="width:50px">
+            <img src="github.png" alt="Avatar" class="icon">
           </a>
         </div>
         <div>
           <a href="https://stackoverflow.com/users/6034460/filipe-oliveira" target="_blank">
-            <img src="stack.png" alt="Avatar" class="icon" style="width:50px">
+            <img src="stack.png" alt="Avatar" class="icon">
           </a>
         </div>
       </div>
@@ -131,7 +156,6 @@
         <br>
         <br>
         Ferramentas com as quais trabalhei:
-        <br>
       </p>
       <ul>
         <li>Room Database</li>
